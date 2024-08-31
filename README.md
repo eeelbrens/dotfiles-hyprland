@@ -7,8 +7,7 @@ personal daily-driver dotfiles for hyprland and my Arch Linux setup. I'll probab
 
 ## Features
 - A `Tomorrow`-themed desktop all across the board.
-- Clean and functional hypr configs.
-- Vertical bar (waybar).
+- Clean and functional hypr configs and desktop, featuring a vertical bar (waybar).
 - Personal nvim configs (LazyVim) tailored for IDE usage.
 - Spotify (spicetify), rofi and kitty themes.
 - More and more tools aimed to make my workflow smoother overall. Go check dependencies section below :)
