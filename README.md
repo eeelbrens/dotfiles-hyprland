@@ -31,14 +31,18 @@ personal daily-driver dotfiles for hyprland and my Arch Linux setup. I'll probab
 ### terminal stuff
 - terminal: [`kitty`](https://github.com/kovidgoyal/kitty)
 - shell: `bash` with [`ble.sh`](https://github.com/akinomyoga/ble.sh) modified with [`fish` like autocomplete](https://harduex.com/blog/fish-like-autosuggestions-in-bash-shell/)
-- text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim) based config optimized for my edit use cases
+- text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim) based config optimized for my programming/scripting use cases
 - fetch: [`fastfetch`](https://github.com/fastfetch-cli/fastfetch)
+- tree: [`cbonsai`](https://gitlab.com/jallbrit/cbonsai)
+- colored blocks: [`shell-color-scripts`](https://gitlab.com/dwt1/shell-color-scripts)
 
 ### theming stuff and miscellaneous
 - theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [tomorrow-night](https://tinted-theming.github.io/base16-gallery/)... here's [more info on chriskempson's theme](https://github.com/chriskempson/tomorrow-theme).
-- browser: Firefox with custom CSS
-- wallpaper: custom made ([link](.config/sway/nadekodrowndark.png))
+- wallpaper: custom modified version from [here](https://www.artstation.com/artwork/DAw5xn)
 - spotify: [`spicetify-cli`](https://spicetify.app/) with [modified](.config/spicetify/Themes/text/) [text theme](https://github.com/spicetify/spicetify-themes/tree/master/text)
+- fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono)
+
+**not shown stuff worthy of mention:**
+- browser: Firefox
 - video player: [`mpv`](https://mpv.io/)
-- fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono) and Rubik
-- cursor: [Bibata-Modern-Classic](https://www.bibata.live/) (not shown)
+- cursor: [Bibata-Modern-Classic](https://www.bibata.live/)
