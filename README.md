@@ -37,6 +37,7 @@ personal daily-driver dotfiles for hyprland and my Arch Linux setup. I'll probab
 - shell: `bash` with [`ble.sh`](https://github.com/akinomyoga/ble.sh) modified with [`fish` like autocomplete](https://harduex.com/blog/fish-like-autosuggestions-in-bash-shell/)
 - text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim) based config optimized for my programming/scripting use cases
 - fetch: [`fastfetch`](https://github.com/fastfetch-cli/fastfetch)
+- clock: [`peaclock`](https://github.com/octobanana/peaclock)
 - tree: [`cbonsai`](https://gitlab.com/jallbrit/cbonsai)
 - colored blocks: [`shell-color-scripts`](https://gitlab.com/dwt1/shell-color-scripts)
 
