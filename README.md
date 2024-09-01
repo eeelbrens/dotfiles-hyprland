@@ -23,13 +23,12 @@ personal daily-driver dotfiles for hyprland and my Arch Linux setup. I'll probab
 - wm: [`hyprland`](https://hyprland.org/), complete with ~almost~ all hypr ecosystem tools: `hyprpaper`, `hyprpicker`, `hypridle`, `hyprlock`, and `hyprcursor`
     
 > [!NOTE]
-> The config files for hyprland depend on GNOME's GTK4.0 theming for `libadwaita` apps (i'm a GNOME departee!), as well as for user authentication within `nautilus` (via `polkit`). You may want to configure those portions accordingly).
 - main bottom bar: [`waybar`](https://github.com/Alexays/Waybar)
 - notification daemon: [`dunst`](https://github.com/dunst-project/dunst)
 - app launcher and logout options: [`rofi-wayland`](github.com/lbonn/rofi) with themes based on configs from [adi1090x's repo](https://github.com/adi1090x/rofi?tab=readme-ov-file)
 
 ### extra dependencies required (check after your sway config copy)
-`clipman` and `wl-clipboard` (for copying and pasting), `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit-gnome` (user authentication for `nautilus`, you could change your policykit and file manager as you please), `grim` and `grimshot` (for screenshots), `cronie`/`cron` and `udev` for [low battery and charging alert](usr/local/bin/) scripts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
+`clipman` and `wl-clipboard` (for copying and pasting), `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), ~`polkit-gnome` (user authentication for `nautilus`, you could change your policykit and file manager as you please),~ `grim` and `grimshot` (for screenshots), `cronie`/`cron` and `udev` for [low battery and charging alert](usr/local/bin/) scripts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
 - waybar: `playerctl` (for MPRIS media module)
 
 ### terminal stuff
