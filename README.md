@@ -45,8 +45,3 @@ personal daily-driver dotfiles for hyprland and my Arch Linux setup. I'll probab
 - wallpaper: custom modified version from [here](https://www.artstation.com/artwork/DAw5xn)
 - spotify: [`spicetify-cli`](https://spicetify.app/) with [modified](.config/spicetify/Themes/text/) [text theme](https://github.com/spicetify/spicetify-themes/tree/master/text)
 - fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono)
-
-**not shown stuff worthy of mention:**
-- browser: Firefox
-- video player: [`mpv`](https://mpv.io/)
-- cursor: [Bibata-Modern-Classic](https://www.bibata.live/)
