@@ -28,7 +28,7 @@ personal daily-driver dotfiles for hyprland and my Arch Linux setup. I'll probab
 - app launcher and logout options: [`rofi-wayland`](github.com/lbonn/rofi) with themes based on configs from [adi1090x's repo](https://github.com/adi1090x/rofi?tab=readme-ov-file)
 
 ### extra dependencies required (check after your sway config copy)
-`clipman` and `wl-clipboard` (for copying and pasting), `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), ~`polkit-gnome` (user authentication for `nautilus`, you could change your policykit and file manager as you please),~ `grim` and `grimshot` (for screenshots), `cronie`/`cron` and `udev` for [low battery and charging alert](usr/local/bin/) scripts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
+`clipman` and `wl-clipboard` (for copying and pasting), `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), [`sway-audio-idle-inhibit`](https://github.com/ErikReider/SwayAudioIdleInhibit) for idle inhibiting on audio, ~`polkit-gnome` (user authentication for `nautilus`, you could change your policykit and file manager as you please),~ `grim` and `grimshot` (for screenshots), `cronie`/`cron` and `udev` for [low battery and charging alert](usr/local/bin/) scripts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
 - waybar: `playerctl` (for MPRIS media module)
 
 ### terminal stuff
