@@ -1,0 +1,14 @@
+# custom styles
+ble-face -s syntax_default fg=253
+ble-face -s auto_complete fg=242,bg=none
+ble-face -s filename_directory underline,fg=252
+ble-face -s command_builtin fg=144
+ble-face -s command_file fg=144
+ble-face -s command_function fg=144
+ble-face -s command_alias fg=144
+ble-face -s syntax_error fg=1,bg=none
+ble-face -s argument_option fg=253
+ble-face -s filename_url fg=253
+ble-face -s syntax_delimiter fg=73
+ble-face -s region_insert fg=253,bg=none
+ble-face -s syntax_history_expansion fg=253,bg=none
