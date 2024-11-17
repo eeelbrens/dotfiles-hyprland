@@ -94,7 +94,7 @@ button:hover {
 }
 
 #mode, #submap {
-    color: @base0E;
+    color: @base09;
 }
 
 #window,
@@ -166,8 +166,16 @@ label:focus {
     color: @base05;
 }
 
+#cpu.critical {
+    color: @base08;
+}
+
 #memory {
     color: @base05;
+}
+
+#memory.critical {
+    color: @base08;
 }
 
 #disk {
@@ -179,7 +187,7 @@ label:focus {
 }
 
 #network {
-    color: @base0D;
+    color: @base09;
 }
 
 #network.disconnected, #network.disabled {
@@ -240,15 +248,14 @@ label:focus {
 
 #idle_inhibitor {
     color: @base02;
-    margin-top: 16px;
 }
 
 #idle_inhibitor.activated {
-    color: @base0E;
+    color: @base09;
 }
 
 #language {
-    color: @base0D;
+    color: @base09;
 }
 
 #scratchpad {
@@ -286,5 +293,5 @@ label:focus {
 }
 
 #custom-separator {
-    color: @base05;
+    color: @base02;
 }

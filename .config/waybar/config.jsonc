@@ -2,37 +2,36 @@
 [
     {
         "id": "0",
-        "position": "right",
-        "height": 1048,
-        "width": 48,
-        "spacing": 2,
-        "margin-right": 14,
+        "position": "bottom",
+        "height": 44,
+        "width": 1898,
+        "margin-bottom": 12,
         "modules-left": [
-            "custom/separator",
             "custom/yearp",
             "custom/separator",
             "network",
-            "hyprland/submap",
             "custom/separator",
-            "mpris",
+            "group/systeminfo",
+            "custom/separator",
+            "hyprland/workspaces",
+            "hyprland/submap",
         ],
         "modules-center": [
-            "hyprland/workspaces",
+            "mpris",
         ],
         "modules-right": [
-            "custom/separator",
             "hyprland/language",
             "custom/separator",
             "clock",
+            "custom/separator",
             "clock#date",
+            "custom/separator",
             "idle_inhibitor",
             "custom/separator",
             "battery",
-            "custom/separator"
         ],
         "hyprland/submap": {
-            "format": "{} ",
-            "rotate": 90
+            "format": " • {}",
         },
         "sway/scratchpad": {
             "format": "hi",
@@ -46,7 +45,6 @@
                 "activated": "awake",
                 "deactivated": "dizzy"
             },
-            "rotate": 90
         },
         "tray": {
             // "icon-size": 21,
@@ -54,14 +52,13 @@
         },
         "clock": {
             // "timezone": "America/New_York",
-            "format": "{:%H\n%M}",
+            "format": "{:%H:%M}",
             "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         },
         "clock#date": {
             // "timezone": "America/New_York",
-            "format": "{:%a, %b%d} ",
+            "format": "{:%a,%b%d}",
             "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-            "rotate": 90
         },
         "battery": {
             "states": {
@@ -70,10 +67,10 @@
                 "warning": 30,
                 "critical": 10
             },
-            "format": "pw:\n{capacity}%",
-            "format-full": "fl:\n{capacity}%",
-            "format-charging": "ch:\n{capacity}%",
-            "format-plugged": "pl:\n{capacity}%",
+            "format": "pw:{capacity}%  ",
+            "format-full": "fl:{capacity}%  ",
+            "format-charging": "ch:{capacity}%  ",
+            "format-plugged": "pl:{capacity}%  ",
             "tooltip-format": "time: {time}",
             "interval": 5,
             //"format-good": "", // An empty format will hide the module
@@ -81,18 +78,48 @@
         "battery#bat2": {
             "bat": "BAT2",
         },
+        "cpu": {
+            "interval": 2,
+            "format": "{usage:02}%",
+            "states": {
+                "critical": 80,
+            },
+        },
+        "memory": {
+            "interval": 2,
+            "format": "{percentage:02}%",
+            "states": {
+                "critical": 80,
+            },
+        },
+        "memory#swap": {
+            "interval": 2,
+            "format": "{swapPercentage:02}%",
+            "states": {
+                "critical": 80,
+            },
+        },
+        "group/systeminfo": {
+            "orientation": "horizontal",
+            "modules": ["cpu", "custom/separator", "memory", "custom/separator", "memory#swap"] 
+        },
         "custom/yearp": {
-            "format": "yp:\n{:.3}",
-            "exec": "~/.config/waybar/yearprogress.sh",
+            "format": "  yp:{:.3}",
+            "exec": "/usr/local/bin/yearprogress.sh",
             "tooltip-format": "year progress: {}",
             "interval": 300,
         },
         "mpris": {
             "format": "{artist} - {title}",
-            "format-paused": "{artist} - {title}",
-            "max-length": 30,
-            "interval": 1,
-            "rotate": 90
+            "max-length": 50,
+            "interval": 2,
+        },
+        "hyprland/workspaces": {
+            "format": "{icon}",
+            "format-icons": {
+                "active": "点",
+                "default": "点"
+            }
         },
         "hyprland/language": {
             "format-en": "en",
@@ -109,9 +136,8 @@
             "on-click": "kitty -e nmtui"
         },
         "custom/separator": {
-            "format": " ",
+            "format": " • ",
             "tooltip": false,
-            "rotate": 90
-        }
+        },
     },
 ]

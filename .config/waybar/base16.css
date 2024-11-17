@@ -1,23 +1,16 @@
-/*
-*
-* Base16 Tomorrow Night
-* Author: Chris Kempson (http://chriskempson.com)
-*
-*/
-
-@define-color base00 #1d1f21;
-@define-color base01 #282a2e;
-@define-color base02 #373b41;
-@define-color base03 #969896;
-@define-color base04 #b4b7b4;
-@define-color base05 #c5c8c6;
-@define-color base06 #e0e0e0;
-@define-color base07 #ffffff;
-@define-color base08 #cc6666;
-@define-color base09 #de935f;
-@define-color base0A #f0c674;
-@define-color base0B #b5bd68;
-@define-color base0C #8abeb7;
-@define-color base0D #81a2be;
-@define-color base0E #b294bb;
-@define-color base0F #a3685a;
+@define-color base00 #1f1f28;
+@define-color base01 #16161d;
+@define-color base02 #223249;
+@define-color base03 #54546D;
+@define-color base04 #727169;
+@define-color base05 #dcd7ba;
+@define-color base06 #c8c093;
+@define-color base07 #717c7c;
+@define-color base08 #c34043;
+@define-color base09 #ffa066;
+@define-color base0A #c0a36e;
+@define-color base0B #76946a;
+@define-color base0C #6a9589;
+@define-color base0D #7e9cd8;
+@define-color base0E #957fb8;
+@define-color base0F #d27e99;
