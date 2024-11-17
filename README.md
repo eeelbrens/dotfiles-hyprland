@@ -1,5 +1,5 @@
 # dotfiles-hyprland
-[!NOTE]
+
 > ARCHIVED!!! am now using this [moderately modified dotfiles](https://github.com/eeelbrens/dotfiles-hyprland-kanagawa). if u wanna follow what changes i did from that setup go to the repo linked in this paragraph.
 
 personal daily-driver dotfiles for hyprland and my Arch Linux setup. ~I'll probably continue to support this repo as I add more and more personal mods into it.~
